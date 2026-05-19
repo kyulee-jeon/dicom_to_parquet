@@ -156,3 +156,10 @@ table = dataset.to_table()
 df = table.to_pandas()
 private = df[df["tag"].apply(lambda t: int(t[:4], 16) % 2 == 1)]
 ```
+
+## Demo
+
+| | English | Korean |
+|---|---|---|
+| Notebook (`.ipynb`) | [dicom_to_parquet_demo-eng.ipynb](demo/dicom_to_parquet_demo-eng.ipynb) | [dicom_to_parquet_demo-kor.ipynb](demo/dicom_to_parquet_demo-kor.ipynb) |
+| Guide (`.md`) | [demo-readme-eng.md](demo/demo-readme-eng.md) | [demo-readme-kor.md](demo/demo-readme-kor.md) |
