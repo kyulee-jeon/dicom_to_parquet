@@ -1,0 +1,27 @@
+{
+  "dicom_root": "C:\\Projects\\dicom_data\\data\\mimic-iv-echo",
+  "out_dir": "C:\\Projects\\dicom_data\\data\\mimic-iv-echo_headers\\01_parquet_only",
+  "files_processed": 5,
+  "files_failed": 0,
+  "rows_total": 351,
+  "batches_written": 1,
+  "skip_pixel_data": true,
+  "skip_tags": [
+    "54001010",
+    "7FE00010"
+  ],
+  "compression": "zstd",
+  "schema": [
+    "file_path:string",
+    "study_uid:string",
+    "series_uid:string",
+    "instance_uid:string",
+    "sop_class_uid:string",
+    "modality:string",
+    "tag:string",
+    "vr:string",
+    "vm:string",
+    "path:string",
+    "value:string"
+  ]
+}
